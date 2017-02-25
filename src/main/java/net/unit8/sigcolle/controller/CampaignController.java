@@ -85,6 +85,7 @@ public class CampaignController {
         return templateEngine.render("campaign/new", "form", new CampaignCreateForm());
     }
 
+
     /**
      * 新規キャンペーンを作成します.
      * ---------------------------------------
